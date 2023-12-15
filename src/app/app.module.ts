@@ -9,6 +9,8 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { ContattiComponent } from './Components/contatti/contatti.component';
 import { AboutMeComponent } from './Components/about-me/about-me.component';
 import { NotFoundComponent } from './Components/not-found/not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { NotFoundComponent } from './Components/not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
