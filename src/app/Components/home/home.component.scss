@@ -39,3 +39,12 @@
 .card:hover::after {
   transform: scale(1); /* Increase the scale on hover */
 }
+.particular-width {
+  min-width: 33%;
+}
+
+@media (max-width: 1200px) {
+  .particular-width {
+    min-width: 50%;
+  }
+}

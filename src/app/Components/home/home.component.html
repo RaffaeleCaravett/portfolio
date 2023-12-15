@@ -22,11 +22,11 @@
       </div> -->
       <div class="row p-0 m-0">
         <div class="col-md-1 position-relative" (mouseenter)="scrollLeft(i)" (mouseleave)="stopScroll(i)">
-          <span style="font-size: 24px; cursor: pointer;" class="position-absolute top-50 text-dark">&xlarr;</span>
+          <span style="font-size: 24px; cursor: pointer;" class="position-absolute top-50 ">&xlarr;</span>
         </div>
         <div class="col-md-10 pt-5 ">
           <div class="d-flex overflow-auto w-100 " id="scrollContainer{{i}}">
-            <div style="min-width: 33%" *ngFor="let st of s.tools" class="m-auto"  [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'"
+            <div  *ngFor="let st of s.tools" class="m-auto particular-width"  [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'"
             >
               <div class="p-1 bg-transparent " data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
                 <div class="card w-100 bg-white" style="min-height: 435.36px;">
@@ -43,7 +43,7 @@
                   </div>
         </div>
         <div class="col-md-1 position-relative" (mouseenter)="scrollRight(i)" (mouseleave)="stopScroll(i)">
-          <span style="font-size: 24px; cursor: pointer;" class="position-absolute top-50 text-dark">&xrarr;</span>
+          <span style="font-size: 24px; cursor: pointer;" class="position-absolute top-50 ">&xrarr;</span>
         </div>
       </div>
     </div>
