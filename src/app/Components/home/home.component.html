@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-10 pt-5 ">
           <div class="d-flex overflow-auto w-100 " id="scrollContainer{{i}}">
-            <div  *ngFor="let st of s.tools" class="m-auto particular-width"  [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'"
+            <div  *ngFor="let st of s.tools" class="m-auto particular-width p-5"  [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'"
             >
               <div class="p-1 bg-transparent " data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
                 <div class="card w-100 bg-white" style="min-height: 435.36px;">
@@ -49,7 +49,16 @@
     </div>
     <div class="col-md-10 m-auto p-4 text-center bg-transparent " data-aos="fade-up" data-aos-duration="2000">
 <h2>My projects</h2>
-    </div>
+<p>Here's a brief section with my projects . You can find both projects in final versions, and other in trial versions. Hope you enjoy.</p>
+<div class="row py-5">
+<div class="col-md-4 p-3 border rounded shadow" *ngFor="let p of projectsArray">
+  <h1 class="text-success"><strong>{{p.title}}</strong></h1>
+  <p>{{p.description}}</p>
+  <a href="{{p.link}}" target="_blank" class="fs-4 text-warning" style="text-decoration: none;">Visit ➡️</a>
+</div>
+</div>
+
+</div>
       </div>
     </div>
   </div>

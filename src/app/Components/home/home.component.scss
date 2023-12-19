@@ -43,8 +43,19 @@
   min-width: 33%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and ( min-width:860px) {
   .particular-width {
     min-width: 50%;
   }
 }
+@media (max-width:860px) and ( min-width:520px) {
+    .particular-width {
+      min-width: 70%;
+    }
+}
+@media (max-width:520px) {
+  .particular-width {
+    min-width: 100%;
+  }
+}
+
