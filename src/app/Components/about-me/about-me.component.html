@@ -5,10 +5,10 @@
   <div class="row">
     <div class="col-md-6 m-auto text-center">
       <div class="row">
-        <div class="col-md-6 p-3 border rounded shadow m-auto">
+        <div class="col-md-6 p-3 border rounded m-auto" [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'">
           <div>
             <img src="assets/aboutme-images/raffaelecaravetta.jpg" alt="" class="border w-75"
-          [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'"
+
           >
           </div>
           <div>
@@ -44,7 +44,7 @@
 </div>
 <div class="col-md-6 text-center p-5">
   <div class="row ">
-    <div class="col-md-12 p-3 border rounded shadow">
+    <div class="col-md-12 p-3 border rounded " [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'">
 <h2 class="fw-bolder">Description</h2>
 <p class="fs-5 w-50 m-auto">
   I define myself ad a nice guy. I love practicing respect before everything. I also love coding, i think it is a cool way of express ourselves. I like create applications that do something,
@@ -56,7 +56,7 @@
 </div>
 <div class="col-md-6">
   <div class="row p-5">
-    <div class="col-md-12 p-3 border rounded shadow">
+    <div class="col-md-12 p-3 border rounded " [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'">
 <h2 class="fw-bolder">Some of the phrases i like the most : </h2>
 <ul>
   <li class="p-3">"Experience is what you get when you didn't get what you wanted.”
@@ -76,7 +76,7 @@
   </div>
 </div>
 <div class="col-md-12 p-5 text-start">
-  <div id="map" class="shadow-lg" style="height: 400px;"></div>
+  <div id="map"  [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'" style="height: 400px;"></div>
 </div>
 
   </div>
