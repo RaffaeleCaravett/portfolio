@@ -1,0 +1,7 @@
+<app-navbar></app-navbar>
+<div [ngClass]="bg === 'dark' ? 'bg-dark text-white' : 'bg-light text-dark'">
+<button class="btn m-1 btn-light" (click)="mode('light')">Light mode ☀️</button>
+<button class="btn m-1 btn-dark" (click)="mode('dark')">Dark mode 🌙</button>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
