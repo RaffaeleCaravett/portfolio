@@ -1,92 +1,82 @@
   <div class="row text-center" [ngClass]="bg === 'dark' ? 'bg-dark text-white' : 'bg-light text-dark'" style="min-height: 85vh;">
-<h1>About me</h1>
+<h1 class="fw-bolder">About me</h1>
 <p>In this section you find my personal informations</p>
-<div class="col-md-6 text-center">
+<div class="col-md-12 text-center">
   <div class="row">
-    <div class="col-md-12">
-          <img src="assets/aboutme-images/raffaelecaravetta.jpg" alt="" class="border rounded-circle w-50"
+    <div class="col-md-6 m-auto text-center">
+      <div class="row">
+        <div class="col-md-6 p-3 border rounded shadow m-auto">
+          <div>
+            <img src="assets/aboutme-images/raffaelecaravetta.jpg" alt="" class="border w-75"
           [ngClass]="bg === 'dark' ? 'gold-shadow' : 'black-shadow'"
           >
+          </div>
+          <div>
+<div class="row">
+  <div class="col-md-6 p-2">
+    <h3 class="fw-bolder">Nome :</h3>
+    <p>Raffaele</p>
+  </div>
+  <div class="col-md-6 p-2">
+    <h3 class="fw-bolder">Cognome :</h3>
+    <p>Caravetta</p>
+  </div>
+  <div class="col-md-6 p-2">
+    <h3 class="fw-bolder">Età :</h3>
+    <p>29</p>
+  </div>
+  <div class="col-md-6 p-2">
+    <h3 class="fw-bolder">Nazionalità :</h3>
+    <p>Italia</p>
+  </div>
+  <div class="col-md-6 p-2">
+    <h3 class="fw-bolder">Città :</h3>
+    <p>Cosenza</p>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+
     </div>
-<div class="p-1 col-md-6">
-<div class="example-container">
-  <mat-form-field floatLabel="always">
-    <mat-label>First name</mat-label>
-    <input matInput type="number" class="example-right-align text-center" placeholder="Raffaele" disabled>
-  </mat-form-field>
-</div>
-</div>
-<div class="p-1 col-md-6">
-<div class="example-container">
-  <mat-form-field floatLabel="always">
-    <mat-label>Last name</mat-label>
-    <input matInput type="number" class="example-right-align text-center" placeholder="Caravetta" disabled>
-  </mat-form-field>
-</div>
-</div>
-<div class="p-1 col-md-6">
-<div class="example-container">
-  <mat-form-field floatLabel="always">
-    <mat-label>Age</mat-label>
-    <input matInput type="number" class="example-right-align text-center" placeholder="29" disabled>
-  </mat-form-field>
-</div>
-</div>
-<div class="p-1 col-md-6">
-<div class="example-container">
-  <mat-form-field floatLabel="always">
-    <mat-label>City</mat-label>
-    <input matInput type="number" class="example-right-align text-center" placeholder="Cosenza" disabled>
-  </mat-form-field>
-</div>
-</div>
-<div class="p-1 col-md-6">
-<div class="example-container">
-  <mat-form-field floatLabel="always">
-    <mat-label>Region</mat-label>
-    <input matInput type="number" class="example-right-align text-center" placeholder="Calabria" disabled>
-  </mat-form-field>
-</div>
-</div>
-<div class="p-1 col-md-6">
-<div class="example-container">
-  <mat-form-field floatLabel="always">
-    <mat-label>Nation</mat-label>
-    <input matInput type="number" class="example-right-align text-center" placeholder="Italy" disabled>
-  </mat-form-field>
-</div>
-</div>
   </div>
 
 </div>
-<div class="col-md-6 text-center">
-<h2>Description</h2>
+<div class="col-md-6 text-center p-5">
+  <div class="row ">
+    <div class="col-md-12 p-3 border rounded shadow">
+<h2 class="fw-bolder">Description</h2>
 <p class="fs-5 w-50 m-auto">
   I define myself ad a nice guy. I love practicing respect before everything. I also love coding, i think it is a cool way of express ourselves. I like create applications that do something,
   from each possible field. I also define myself as a professional worker. I stay in the first line for learning, contribute to the company success and work together with collegues, set and reach goals.
   I love so much to travel, discover new places, meet new people. I also love to read, walk, exercise and eat well.
 </p>
-<div class="row py-4">
-  <div class="col-md-12">
-<h2>Some of the phrases i like the most : </h2>
+    </div>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="row p-5">
+    <div class="col-md-12 p-3 border rounded shadow">
+<h2 class="fw-bolder">Some of the phrases i like the most : </h2>
 <ul>
   <li class="p-3">"Experience is what you get when you didn't get what you wanted.”
-    ― <span class="text-success"> Randy Pausch, The Last Lecture </span></li>
+    ― <span class="text-success fs-6 fw-bolder"> Randy Pausch, The Last Lecture </span></li>
   <li class="p-3">"Here’s to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They’re not fond of rules. And they
     have no respect for the status quo. You can praise them, disagree with them, quote them, disbelieve them, glorify or vilify them. About the only thing you can’t do is ignore them.
      Because they change things. They invent. They imagine. They heal. They explore. They create. They inspire. They push the human race forward. Maybe they have to be crazy. How else can
       you stare at an empty canvas and see a work of art? Or sit in silence and hear a song that’s never been written? Or gaze at a red planet
      and see a laboratory on wheels? While some see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do."
-     ―<span class="text-success"> Steve Jobs, Think different </span></li>
+     ―<span class="text-success fs-6 fw-bolder"> Steve Jobs, Think different </span></li>
   <li class="p-3">
     "Sincerity is not proof of truth. We must not make the mistake of saying: 'he must be right; he's so sincere.' Because, it is possible that he is sincerely wrong. We can only judge truth with truth and
-    sincerity with sincerity." ―<span class="text-success"> Jim Rohn, The five keys of success </span>
+    sincerity with sincerity." ―<span class="text-success fs-6 fw-bolder"> Jim Rohn, The five keys of success </span>
   </li>
 </ul>
+    </div>
   </div>
-  <div class="col-md-12">
+</div>
+<div class="col-md-12 p-5 text-start">
+  <div id="map" class="shadow-lg" style="height: 400px;"></div>
+</div>
 
-  </div>
-</div>
-</div>
   </div>
