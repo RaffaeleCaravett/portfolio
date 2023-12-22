@@ -114,7 +114,7 @@ subjectService.themeSubject.subscribe((data:string)=>{
     {
       title: "Terra mia Pizzeria",
       description: "Graphic of the Terra Mia Pizzeria Website, Technologies : Angular and derivateas",
-      link: "https://unbreakablecsrc.web.app"
+      link: "https://terramiaproject.web.app"
     }
   ];
   private scrollIntervals: { [key: number]: any } = {};
