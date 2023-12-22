@@ -110,6 +110,11 @@ subjectService.themeSubject.subscribe((data:string)=>{
       description: "Trial version. Unbreakable is a project that mirin to the overall health of the human being. It is all to discover. Like developing tools i've used Angular, typescript,html,"+
       "css,javascript, bootstrap, java, spring, postgresql database, three.js and of course git.",
       link: "https://unbreakablecsrc.web.app"
+    },
+    {
+      title: "Terra mia Pizzeria",
+      description: "Graphic of the Terra Mia Pizzeria Website, Technologies : Angular and derivateas",
+      link: "https://unbreakablecsrc.web.app"
     }
   ];
   private scrollIntervals: { [key: number]: any } = {};

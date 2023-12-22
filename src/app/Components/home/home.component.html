@@ -51,10 +51,12 @@
 <h2>My projects</h2>
 <p>Here's a brief section with my projects . You can find both projects in final versions, and other in trial versions. Hope you enjoy.</p>
 <div class="row py-5">
-<div class="col-md-4 p-3 border rounded shadow" *ngFor="let p of projectsArray">
-  <h1 class="text-success"><strong>{{p.title}}</strong></h1>
+<div class="col-md-4 p-3" *ngFor="let p of projectsArray">
+  <div class="border rounded shadow position-relative p-5" style="height: 100%;">
+    <h1 class="text-success"><strong>{{p.title}}</strong></h1>
   <p>{{p.description}}</p>
-  <a href="{{p.link}}" target="_blank" class="fs-4 text-warning" style="text-decoration: none;">Visit ➡️</a>
+  <a href="{{p.link}}" target="_blank" class="fs-4 text-warning position-absolute" style="text-decoration: none;bottom:10px">Visit ➡️</a>
+  </div>
 </div>
 </div>
 
