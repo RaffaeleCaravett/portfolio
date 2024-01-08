@@ -113,8 +113,13 @@ subjectService.themeSubject.subscribe((data:string)=>{
     },
     {
       title: "Terra mia Pizzeria",
-      description: "Graphic of the Terra Mia Pizzeria Website, Technologies : Angular and derivateas",
+      description: "Pizzeria application for visit the pizzeria, take order from waitress. Technologies used : Angular, Spring.",
       link: "https://terramiaproject.web.app"
+    },
+    {
+      title: "Antichi delitti",
+      description: "Website for users that want to see articles from author, and for author that can publish articles for users. Tecnhologies used : Angular, Spring",
+      link: "https://antichidelitti.web.app"
     }
   ];
   private scrollIntervals: { [key: number]: any } = {};
