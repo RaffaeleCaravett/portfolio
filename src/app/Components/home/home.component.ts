@@ -120,6 +120,11 @@ subjectService.themeSubject.subscribe((data:string)=>{
       title: "Antichi delitti",
       description: "Website for users that want to see articles from author, and for author that can publish articles for users. Tecnhologies used : Angular, Spring",
       link: "https://antichidelitti.web.app"
+    },
+    {
+      title: "Giochi con le carte",
+      description: "Four card games: Guess the card, who has the highest, who has the lowest, take the same. Tecnhologies used : Angular, Spring",
+      link: "https://giococarte.web.app"
     }
   ];
   private scrollIntervals: { [key: number]: any } = {};
