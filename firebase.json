@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/portfolio",
+    "public": "dist/gioco-carte",
     "ignore": [
       "firebase.json",
       "**/.*",
