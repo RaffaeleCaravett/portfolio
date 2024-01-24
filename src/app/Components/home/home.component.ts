@@ -118,13 +118,18 @@ subjectService.themeSubject.subscribe((data:string)=>{
     },
     {
       title: "Antichi delitti",
-      description: "Website for users that want to see articles from author, and for author that can publish articles for users. Tecnhologies used : Angular, Spring",
+      description: "Website for users that want to see articles from author, and for author that can publish articles for users. Technologies used : Angular, Spring",
       link: "https://antichidelitti.web.app"
     },
     {
       title: "Giochi con le carte",
-      description: "Four card games: Guess the card, who has the highest, who has the lowest, take the same. Tecnhologies used : Angular, Spring",
+      description: "Four card games: Guess the card, who has the highest, who has the lowest, take the same. Technologies used : Angular, Spring",
       link: "https://giococarte.web.app"
+    },
+    {
+      title: "The Commerce",
+      description: "E-commerce-style web application, features for normal users and sellers. Technologies: Angular, Spring.",
+      link: "https://thecommerce.web.app"
     }
   ];
   private scrollIntervals: { [key: number]: any } = {};
