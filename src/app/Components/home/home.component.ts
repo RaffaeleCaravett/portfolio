@@ -1,3 +1,4 @@
+import { literalMap } from '@angular/compiler';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Subjects } from 'src/app/Services/subjects.service';
 
@@ -130,6 +131,10 @@ subjectService.themeSubject.subscribe((data:string)=>{
       title: "The Commerce",
       description: "E-commerce-style web application, features for normal users and sellers. Technologies: Angular, Spring.",
       link: "https://thecommerce.web.app"
+    },{
+      title:"Animations",
+      description:"A single page application with a scroll animation. Technologies: Angular, Css, Typescript",
+      link:"https://graphiccircus.web.app"
     }
   ];
   private scrollIntervals: { [key: number]: any } = {};

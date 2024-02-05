@@ -1,12 +1,9 @@
 <nav class="bg-dark w-100 py-3 text-center">
   <div class="row">
-    <div class="col-md-4" routerLinkActive="active">
+    <div class="col-md-6" routerLinkActive="active">
       <button class="btn" [ngClass]="{ 'text-white': !isActive('/') ,'text-success':isActive('/')}" [routerLink]="['/']">My portfolio</button>
     </div>
-    <div class="col-md-4" routerLinkActive="active">
-      <button class="btn" [ngClass]="{ 'text-white': !isActive('/contatti') ,'text-success':isActive('/contatti')}" [routerLink]="['/contatti']">Contatti</button>
-    </div>
-    <div class="col-md-4" routerLinkActive="active">
+    <div class="col-md-6" routerLinkActive="active">
       <button class="btn" [ngClass]="{ 'text-white': !isActive('/aboutme') ,'text-success':isActive('/aboutme')}" [routerLink]="['/aboutme']">About me</button>
     </div>
   </div>
